@@ -1,0 +1,5 @@
+{
+  "name": "Animation Principles Explorer",
+  "description": "A showcase of the 12 Principles of Animation applied to web interfaces, featuring interactive examples and a SaaS dashboard implementation.",
+  "requestFramePermissions": []
+}
