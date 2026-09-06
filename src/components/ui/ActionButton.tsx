@@ -18,15 +18,18 @@ export const ActionButton = React.forwardRef<HTMLButtonElement, ActionButtonProp
   ({ onClick, children, className, whileHover, whileTap, initial, animate, variants, title }, ref) => {
     return (
       <Ariakit.Button
-        render={<motion.button />}
+        render={
+          <motion.button
+            whileHover={whileHover}
+            whileTap={whileTap}
+            initial={initial}
+            animate={animate}
+            variants={variants}
+          />
+        }
         ref={ref}
         onClick={onClick}
         className={className}
-        whileHover={whileHover}
-        whileTap={whileTap}
-        initial={initial}
-        animate={animate}
-        variants={variants}
         title={title}
       >
         {children}
