@@ -11,18 +11,18 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@ariakit/react": "^0.4.24",
+    "@ariakit/react": "^0.4.39",
     "@google/genai": "^2.21.0",
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.1.1",
     "clsx": "^2.1.1",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.4.2",
     "express": "^4.21.2",
     "lucide-react": "^0.546.0",
     "motion": "^13.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.5.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwind-merge": "^3.6.0",
     "vite": "^8.2.2"
   },
   "devDependencies": {
@@ -30,9 +30,9 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.5.4",
     "tailwindcss": "^4.1.14",
-    "tsx": "^4.21.0",
+    "tsx": "^4.23.13",
     "typescript": "~5.8.2",
     "vite": "^8.2.2"
   }
